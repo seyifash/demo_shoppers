@@ -550,6 +550,9 @@ h6 {
     height: 100%;
 }
 @media(max-width: 477px){ 
+    .nav-bar .business-name {
+        font-size: 30px;
+    }
     .product-info {
         height: 800px;
     }
@@ -597,5 +600,99 @@ h6 {
         width: 20px;
         height: 20px;
         font-size: 10px;
+    }
+    .add-cart .add-btn .favit {
+        height: 40px;
+        font-size: 18px;
+    }
+    .main-cart-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    
+    }
+    .main-cart-item .continue-to {
+        padding: 5px 10px;
+    }
+    .main-cart-item .continue-to a {
+        text-decoration: none;
+        font-family: myFont;
+        font-size: 20px;
+        color: black;
+    }
+    .main-cart-item .continue-to a:hover {
+        color: red;
+    }
+    .main-cart-item .items-total {
+        width: 100%;
+        padding: 20px 10px;
+        margin: 0 auto;
+    }
+    .main-cart-item .items-total .it-tot {
+        display:flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+    .main-cart-item .items-total .it-tot h6 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .main-cart-item .items-total span {
+        padding: 3px 8px;
+    }
+    .main-cart-item .items-total span a {
+        font-size: 12px;
+    }
+    .table {
+        width: 100%;
+    }
+    .table table {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .table table thead  {
+        border: 1px solid #e1e1e1;
+        border-left: none;
+        border-right: none;
+    }
+    .table table thead td {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 8px;
+        padding: 18px 10px;
+    }
+    .table table tbody td {
+        height: 60px;
+        padding: 3px;
+        font-size: 10px;
+        width: 12%;
+    }
+    .table table tbody td:nth-child(5),
+    .table table tbody td:nth-child(7) {
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .table table td:nth-child(2) {
+        width: 30%;
+        font-size: 8px;
+    }
+    .table table tbody td:nth-child(6) {
+        font-size: 8px;
+    }
+    .table table tbody td:nth-child(6) span {
+        padding: 2px 2px;
+        font-size: 8px;
+        margin: 0 2px;
+    }
+    .table table td img {
+        width: 50%;
+        height: 100%;
+    }
+}
+@media (max-width: 799px) {
+    .table table {
+        margin: 0 auto;
+        width: 100%;
     }
 }
