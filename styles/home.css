@@ -772,16 +772,21 @@ ul {
         right: -300px;
         height: 100vh;
         width: 300px;
-        background-color: #E3E6F3;
+        background-color: #1a1a1a;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 0px;
         transition: 0.3s;
+        color: #fff;
     }
     #navbar.active {
         right: 0px;
     }
     #navbar li {
         margin-bottom: 25px;
+    }
+    #navbar li  a {
+        color: #FFF;
+        padding-left: 10px;
     }
     #mobile {
         display: flex;
@@ -800,7 +805,7 @@ ul {
         position: absolute;
         top: 30px;
         left: 30px;
-        color: #222;
+        color: #fff;
         font-size: 24px;
     }
     #lg-bag {
