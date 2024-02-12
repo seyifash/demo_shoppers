@@ -429,6 +429,21 @@ ul {
     #page-header {
         height: 20vh;
     }
+    .footer-col {
+        width: 33%;
+        padding: 0 15px;
+    }
+    .footer-col h4 {
+        font-size: 16px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+    .footer-col ul li  i {
+        font-size: 12px;
+    
+    }
 
 }
 @media(max-width: 477px){
@@ -557,5 +572,20 @@ ul {
     }
     #about-app .video {
         width: 100%;
+    }
+    .footer-col {
+        width: 33%;
+        padding: 0 15px;
+    }
+    .footer-col h4 {
+        font-size: 16px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+    .footer-col ul li  i {
+        font-size: 12px;
+    
     }
 }

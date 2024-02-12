@@ -281,7 +281,7 @@ ul {
     flex-wrap: wrap;
 }
 .footer-col {
-    width: 25%;
+    width: 33%;
     padding: 0 15px;
 }
 .footer-col h4 {
@@ -448,7 +448,17 @@ ul {
     }
     #form-details form {
         width: 50%;
-
+    }
+    .footer-col h4 {
+        font-size: 16px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+    .footer-col ul li  i {
+        font-size: 12px;
+    
     }
 }
 @media(max-width: 477px){
@@ -617,6 +627,17 @@ ul {
     }
     #subtotal {
         width: 100%;
+    }
+    .footer-col h4 {
+        font-size: 16px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+    .footer-col ul li  i {
+        font-size: 12px;
+    
     }
 }
 

@@ -115,19 +115,19 @@ header .Business-name span {
     font-size: 40px;
     font-family: myFont;
 }
-.navbar {
+#navbar {
     display: flex;
     align-items: center;
     justify-content: center;
     background: white;
 }
 
-.navbar li {
+#navbar li {
     list-style: none;
     padding: 0px 20px;
     position: relative;
 }
-.navbar li a {
+#navbar li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -157,7 +157,7 @@ ul li ul.dropdown {
 ul li:hover ul.dropdown {
     display: block;
 }
-.navbar li span {
+#navbar li span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,6 +169,14 @@ ul li:hover ul.dropdown {
     font-size: 10px;
     top: -11px;
     right: 10px;
+}
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
 }
 .categories {
     /*position: fixed;
@@ -311,7 +319,7 @@ ul {
     flex-wrap: wrap;
 }
 .footer-col {
-    width: 25%;
+    width: 33%;
     padding: 0 15px;
 }
 .footer-col h4 {
@@ -370,3 +378,237 @@ ul {
     background-color: #ffffff;
 }
 
+@media (max-width: 799px) {
+    .section-p1 {
+        padding: 20px;
+    }
+    header .shipping-sales {
+        font-size: 8px;
+        
+    }
+    header .Business-name span {
+        font-size: 30px;
+    }
+    ul li ul.dropdown li {
+        display: block;
+        height: 40px;
+        border-bottom: pink;
+        text-align: center; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+    ul li ul.dropdown {
+        width: 100px;
+        background: hsl(0, 0%, 95%);
+        position: absolute;
+        z-index: 1500;
+        left: -15px;
+        display: none;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 0px;
+        transition: 0.3s;
+    }
+    #navbar.active {
+        right: 0px;
+    }
+    #navbar li {
+        margin-bottom: 25px;
+    }
+    #mobile {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+    /* categories */
+    .categories {
+        font-size: 10px;
+        background: white;
+    }
+    .categories .categories-name, .categories .categories-name1 {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .categories .categories-name1 {
+        padding:5px 5px 5px 5px;
+    }
+    .categories .active,.categories .categories-name:hover {
+        padding:5px 5px 5px 5px;
+    }
+    
+    #product1 .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro {
+        margin: 15px 15px;
+    }
+    .footer-col {
+        width: 33%;
+        padding: 0 15px;
+    }
+    .footer-col h4 {
+        font-size: 16px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+    .footer-col ul li  i {
+        font-size: 12px;
+    
+    }
+}
+@media(max-width: 477px){ 
+    .section-p1 {
+        padding: 20px;
+    }
+    header {
+        padding: 10px 5px;
+    }
+    header .shipping-sales {
+        font-size: 8px;
+    }
+    header .Business-name span {
+        font-size: 20px;
+    }
+    ul li ul.dropdown li {
+        display: block;
+        height: 40px;
+        border-bottom: pink;
+        text-align: center; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+    ul li ul.dropdown {
+        width: 100px;
+        background: hsl(0, 0%, 95%);
+        position: absolute;
+        z-index: 1500;
+        left: -15px;
+        display: none;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #1a1a1a;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 0px;
+        transition: 0.3s;
+        color: #fff;
+    }
+    #navbar.active {
+        right: 0px;
+    }
+    #navbar li {
+        margin-bottom: 25px;
+        color: #fff;
+    }
+    #navbar li a {
+        color: #fff;
+    }
+    #mobile {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 24px;
+    }
+    /* categories */
+    .categories {
+        font-size: 8px;
+        background: white;
+    }
+    .categories .categories-name, .categories .categories-name1 {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .categories .categories-name1 {
+        padding: 5px 5px 5px 5px;
+    }
+    .categories .active,.categories .categories-name:hover {
+        padding:4px 4px 4px 4px;
+    }
+    .cat-name {
+        height: 40px;
+        margin-top: 10px;
+
+    }
+    .cat-name .goods-category {
+        font-size: 25px;
+    }
+    #product1 .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro {
+        margin: 15px 15px;
+    }
+    .footer-col {
+        width: 33%;
+        padding: 0 15px;
+    }
+    .footer-col h4 {
+        font-size: 16px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+    .footer-col ul li  i {
+        font-size: 12px;
+    
+    }
+}

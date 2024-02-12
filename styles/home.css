@@ -144,7 +144,7 @@ button.white {
     transition: 0.3s ease;
 }
 .navbar1 li a:hover {
-   color: rgb(253, 253, 72);
+   color: yellow;
 }
 #navbar {
     display: flex;
@@ -217,53 +217,6 @@ button.white {
     font-size: 16px;
     border-radius: 4px;
 }
-#feature {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-#feature .feature-box {
-    width: 180px;
-    text-align: center;
-    padding: 25px  15px;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-    border: 1px solid rgb(236, 234, 234);
-    border-radius: 4px;
-    margin: 15px 0;
-}
-#feature .feature-box:hover {
-    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
-}
-#feature .feature-box img {
-    width: 100%;
-    height: 100px;
-    margin-bottom: 10px;
-}
-#feature .feature-box h6 {
-    display: inline-block;
-    padding: 9px 8px 6px 8px;
-    line-height: 1;
-    border-radius: 4px;
-    color: #9b9bff;;
-    background-color: #fddde4;
-}
-#feature .feature-box:nth-child(2) h6{
-    background-color: #cdebbc;
-}
-
-#feature .feature-box:nth-child(3) h6{
-    background-color: #d1e8f2;
-}
-#feature .feature-box:nth-child(4) h6{
-    background-color: #cdd4f8;
-}
-#feature .feature-box:nth-child(5) h6{
-    background-color: #f6dbf6;
-}
-#feature .feature-box:nth-child(6) h6{
-    background-color: #fff2e5;
-}
 #product1 {
     text-align: center;
 }
@@ -319,7 +272,7 @@ button.white {
     padding-top: 7px;
     font-size: 14px;
     font-weight: 700;
-    color: rgb(253, 253, 72);
+    color: yellow;
 }
 #product1 .pro .cart{
     padding: 5px 7px;
@@ -405,8 +358,8 @@ button.white {
     padding-bottom: 15px;
 }
 #sm-banner .banner-box:hover button {
-    background: rgb(253, 253, 72);
-    border: 1px solid rgb(253, 253, 72);
+    background: yellow;
+    border: 1px solid yellow;
 }
 #banner3 {
     display: flex;
@@ -487,7 +440,7 @@ button.white {
 }
 
 #newsletter button {
-    background-color: rgb(253, 253, 72);
+    background-color: yellow;
     color: #fff;
     white-space: nowrap;
     border-top-left-radius: 0;
@@ -512,7 +465,7 @@ ul {
     flex-wrap: wrap;
 }
 .footer-col {
-    width: 25%;
+    width: 33%;
     padding: 0 15px;
 }
 .footer-col h4 {
@@ -715,6 +668,17 @@ ul {
     #form-details form {
         width: 50%;
 
+    }
+    .footer-col h4 {
+        font-size: 16px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+    .footer-col ul li  i {
+        font-size: 12px;
+    
     }
 
 }
@@ -969,5 +933,16 @@ ul {
     }
     #subtotal {
         width: 100%;
+    }
+    .footer-col h4 {
+        font-size: 16px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+    .footer-col ul li  i {
+        font-size: 12px;
+    
     }
 }
